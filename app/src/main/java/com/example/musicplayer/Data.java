@@ -6,7 +6,7 @@ public class Data {
     /*
     * Cards are merch content created by operations - So title, subtitle might have different content than song/album/artist title/subtitle
      */
-    public static ArrayList<Card> recentlyPlayedSongs = new ArrayList<Card>(){
+    public static ArrayList<Card> popularSongs = new ArrayList<Card>(){
         {
             add(new Card("Title1",
                     "Subtitle1",

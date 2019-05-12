@@ -47,7 +47,7 @@ public class ArrayCardAdapter extends ArrayAdapter<Card> {
 
         TextView typeView = (TextView) listItemView.findViewById(R.id.type);
         if (type.equals("song")) {
-            typeView.setText(mContext.getResources().getString(R.string.recently_played_song));
+            typeView.setText(mContext.getResources().getString(R.string.popular_song));
             listItemView.setOnClickListener(new View.OnClickListener() {
                 // The code in this method will be executed when the colors category is clicked on.
                 @Override

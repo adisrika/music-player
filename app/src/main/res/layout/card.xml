@@ -7,13 +7,15 @@
     android:background="@color/primaryLighterColor"
     android:layout_margin="10dp"
     android:padding="5dp">
+
     <TextView
+        android:id="@+id/type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/type"
         android:background="@color/secondaryColor"
+        android:padding="10dp"
         android:textColor="@color/primaryTextColor"
-        android:padding="10dp" />
+        android:textSize="18sp" />
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"

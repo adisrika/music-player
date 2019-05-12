@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<Card> songCards = Data.recentlyPlayedSongs;
+        ArrayList<Card> songCards = Data.popularSongs;
         ArrayList<Card> artistCards = Data.popularArtists;
         ArrayList<Card> albumCards = Data.popularAlbums;
 
