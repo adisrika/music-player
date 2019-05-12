@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play_all">Play All</string>
+    <string name="album_subtitle">%1$d song . %2d minutes</string>
+    <string name="recently_played_song">Recently played song</string>
+    <string name="popular_artist">Popular Artist</string>
+    <string name="popular_album">Popular Album</string>
+    <string name="subscribers">%1d Subscribers</string>
+</resources>
